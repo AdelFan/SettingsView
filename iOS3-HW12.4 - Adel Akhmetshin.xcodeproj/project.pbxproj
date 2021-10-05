@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7784102D270C578D005B1082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784102C270C578D005B1082 /* AppDelegate.swift */; };
+		7784102F270C578D005B1082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784102E270C578D005B1082 /* SceneDelegate.swift */; };
+		77841031270C578D005B1082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77841030270C578D005B1082 /* ViewController.swift */; };
+		77841034270C578D005B1082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77841032270C578D005B1082 /* Main.storyboard */; };
+		77841036270C578E005B1082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77841035270C578E005B1082 /* Assets.xcassets */; };
+		77841039270C578E005B1082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77841037270C578E005B1082 /* LaunchScreen.storyboard */; };
+		77841044270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77841043270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinTests.swift */; };
+		7784104F270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784104E270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77841040270C578E005B1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77841021270C578D005B1082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77841028270C578D005B1082;
+			remoteInfo = "iOS3-HW12.4 - Adel Akhmetshin";
+		};
+		7784104B270C578E005B1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77841021270C578D005B1082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77841028270C578D005B1082;
+			remoteInfo = "iOS3-HW12.4 - Adel Akhmetshin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77841029270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS3-HW12.4 - Adel Akhmetshin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7784102C270C578D005B1082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7784102E270C578D005B1082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77841030270C578D005B1082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77841033270C578D005B1082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77841035270C578E005B1082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77841038270C578E005B1082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7784103A270C578E005B1082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7784103F270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS3-HW12.4 - Adel AkhmetshinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77841043270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS3_HW12_4___Adel_AkhmetshinTests.swift"; sourceTree = "<group>"; };
+		77841045270C578E005B1082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7784104A270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS3-HW12.4 - Adel AkhmetshinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7784104E270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS3_HW12_4___Adel_AkhmetshinUITests.swift"; sourceTree = "<group>"; };
+		77841050270C578E005B1082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77841026270C578D005B1082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784103C270C578E005B1082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77841047270C578E005B1082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77841020270C578D005B1082 = {
+			isa = PBXGroup;
+			children = (
+				7784102B270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin */,
+				77841042270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinTests */,
+				7784104D270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinUITests */,
+				7784102A270C578D005B1082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7784102A270C578D005B1082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77841029270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin.app */,
+				7784103F270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinTests.xctest */,
+				7784104A270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7784102B270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin */ = {
+			isa = PBXGroup;
+			children = (
+				7784102C270C578D005B1082 /* AppDelegate.swift */,
+				7784102E270C578D005B1082 /* SceneDelegate.swift */,
+				77841030270C578D005B1082 /* ViewController.swift */,
+				77841032270C578D005B1082 /* Main.storyboard */,
+				77841035270C578E005B1082 /* Assets.xcassets */,
+				77841037270C578E005B1082 /* LaunchScreen.storyboard */,
+				7784103A270C578E005B1082 /* Info.plist */,
+			);
+			path = "iOS3-HW12.4 - Adel Akhmetshin";
+			sourceTree = "<group>";
+		};
+		77841042270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinTests */ = {
+			isa = PBXGroup;
+			children = (
+				77841043270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinTests.swift */,
+				77841045270C578E005B1082 /* Info.plist */,
+			);
+			path = "iOS3-HW12.4 - Adel AkhmetshinTests";
+			sourceTree = "<group>";
+		};
+		7784104D270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7784104E270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinUITests.swift */,
+				77841050270C578E005B1082 /* Info.plist */,
+			);
+			path = "iOS3-HW12.4 - Adel AkhmetshinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77841028270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77841053270C578E005B1082 /* Build configuration list for PBXNativeTarget "iOS3-HW12.4 - Adel Akhmetshin" */;
+			buildPhases = (
+				77841025270C578D005B1082 /* Sources */,
+				77841026270C578D005B1082 /* Frameworks */,
+				77841027270C578D005B1082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS3-HW12.4 - Adel Akhmetshin";
+			productName = "iOS3-HW12.4 - Adel Akhmetshin";
+			productReference = 77841029270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7784103E270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77841056270C578E005B1082 /* Build configuration list for PBXNativeTarget "iOS3-HW12.4 - Adel AkhmetshinTests" */;
+			buildPhases = (
+				7784103B270C578E005B1082 /* Sources */,
+				7784103C270C578E005B1082 /* Frameworks */,
+				7784103D270C578E005B1082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77841041270C578E005B1082 /* PBXTargetDependency */,
+			);
+			name = "iOS3-HW12.4 - Adel AkhmetshinTests";
+			productName = "iOS3-HW12.4 - Adel AkhmetshinTests";
+			productReference = 7784103F270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77841049270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77841059270C578E005B1082 /* Build configuration list for PBXNativeTarget "iOS3-HW12.4 - Adel AkhmetshinUITests" */;
+			buildPhases = (
+				77841046270C578E005B1082 /* Sources */,
+				77841047270C578E005B1082 /* Frameworks */,
+				77841048270C578E005B1082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7784104C270C578E005B1082 /* PBXTargetDependency */,
+			);
+			name = "iOS3-HW12.4 - Adel AkhmetshinUITests";
+			productName = "iOS3-HW12.4 - Adel AkhmetshinUITests";
+			productReference = 7784104A270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77841021270C578D005B1082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					77841028270C578D005B1082 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7784103E270C578E005B1082 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 77841028270C578D005B1082;
+					};
+					77841049270C578E005B1082 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 77841028270C578D005B1082;
+					};
+				};
+			};
+			buildConfigurationList = 77841024270C578D005B1082 /* Build configuration list for PBXProject "iOS3-HW12.4 - Adel Akhmetshin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77841020270C578D005B1082;
+			productRefGroup = 7784102A270C578D005B1082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77841028270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin */,
+				7784103E270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinTests */,
+				77841049270C578E005B1082 /* iOS3-HW12.4 - Adel AkhmetshinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77841027270C578D005B1082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77841039270C578E005B1082 /* LaunchScreen.storyboard in Resources */,
+				77841036270C578E005B1082 /* Assets.xcassets in Resources */,
+				77841034270C578D005B1082 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784103D270C578E005B1082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77841048270C578E005B1082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77841025270C578D005B1082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77841031270C578D005B1082 /* ViewController.swift in Sources */,
+				7784102D270C578D005B1082 /* AppDelegate.swift in Sources */,
+				7784102F270C578D005B1082 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784103B270C578E005B1082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77841044270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77841046270C578E005B1082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784104F270C578E005B1082 /* iOS3_HW12_4___Adel_AkhmetshinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77841041270C578E005B1082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77841028270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin */;
+			targetProxy = 77841040270C578E005B1082 /* PBXContainerItemProxy */;
+		};
+		7784104C270C578E005B1082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77841028270C578D005B1082 /* iOS3-HW12.4 - Adel Akhmetshin */;
+			targetProxy = 7784104B270C578E005B1082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77841032270C578D005B1082 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77841033270C578D005B1082 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77841037270C578E005B1082 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77841038270C578E005B1082 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77841051270C578E005B1082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77841052270C578E005B1082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77841054270C578E005B1082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JFTD4A88K;
+				INFOPLIST_FILE = "iOS3-HW12.4 - Adel Akhmetshin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Org.iOS3-HW12-4---Adel-Akhmetshin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77841055270C578E005B1082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JFTD4A88K;
+				INFOPLIST_FILE = "iOS3-HW12.4 - Adel Akhmetshin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Org.iOS3-HW12-4---Adel-Akhmetshin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77841057270C578E005B1082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JFTD4A88K;
+				INFOPLIST_FILE = "iOS3-HW12.4 - Adel AkhmetshinTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Org.iOS3-HW12-4---Adel-AkhmetshinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS3-HW12.4 - Adel Akhmetshin.app/iOS3-HW12.4 - Adel Akhmetshin";
+			};
+			name = Debug;
+		};
+		77841058270C578E005B1082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JFTD4A88K;
+				INFOPLIST_FILE = "iOS3-HW12.4 - Adel AkhmetshinTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Org.iOS3-HW12-4---Adel-AkhmetshinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS3-HW12.4 - Adel Akhmetshin.app/iOS3-HW12.4 - Adel Akhmetshin";
+			};
+			name = Release;
+		};
+		7784105A270C578E005B1082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JFTD4A88K;
+				INFOPLIST_FILE = "iOS3-HW12.4 - Adel AkhmetshinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Org.iOS3-HW12-4---Adel-AkhmetshinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS3-HW12.4 - Adel Akhmetshin";
+			};
+			name = Debug;
+		};
+		7784105B270C578E005B1082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JFTD4A88K;
+				INFOPLIST_FILE = "iOS3-HW12.4 - Adel AkhmetshinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Org.iOS3-HW12-4---Adel-AkhmetshinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS3-HW12.4 - Adel Akhmetshin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77841024270C578D005B1082 /* Build configuration list for PBXProject "iOS3-HW12.4 - Adel Akhmetshin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77841051270C578E005B1082 /* Debug */,
+				77841052270C578E005B1082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77841053270C578E005B1082 /* Build configuration list for PBXNativeTarget "iOS3-HW12.4 - Adel Akhmetshin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77841054270C578E005B1082 /* Debug */,
+				77841055270C578E005B1082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77841056270C578E005B1082 /* Build configuration list for PBXNativeTarget "iOS3-HW12.4 - Adel AkhmetshinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77841057270C578E005B1082 /* Debug */,
+				77841058270C578E005B1082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77841059270C578E005B1082 /* Build configuration list for PBXNativeTarget "iOS3-HW12.4 - Adel AkhmetshinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7784105A270C578E005B1082 /* Debug */,
+				7784105B270C578E005B1082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77841021270C578D005B1082 /* Project object */;
+}
