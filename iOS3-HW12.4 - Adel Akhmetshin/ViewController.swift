@@ -90,6 +90,27 @@ extension ViewController: UITableViewDataSource {
         default:
             break
         }
+        } else if (indexPath.section == 1) {
+            switch indexPath.row {
+            case 0:
+                cell.textLabel?.text = array[5]
+                cell.imageView?.image = UIImage(systemName: "circle.grid.cross.fill")
+                cell.accessoryType = .disclosureIndicator
+            case 1:
+                cell.textLabel?.text = array[6]
+                cell.imageView?.image = UIImage(systemName: "speaker.wave.3.fill")
+                cell.accessoryType = .disclosureIndicator
+            case 2:
+                cell.textLabel?.text = array[7]
+                cell.imageView?.image = UIImage(systemName: "moon")
+                cell.accessoryType = .disclosureIndicator
+            case 3:
+                cell.textLabel?.text = array[8]
+                cell.imageView?.image = UIImage(systemName: "hourglass")
+                cell.accessoryType = .disclosureIndicator
+            default:
+                break
+            }
         }
         return cell
     }
