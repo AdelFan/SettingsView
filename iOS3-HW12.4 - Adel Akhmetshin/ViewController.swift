@@ -38,11 +38,59 @@ extension ViewController: UITableViewDelegate {
 extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        switch section {
+        case 0:
+            return 5
+        case 1:
+            return 4
+        case 2:
+            return 15
+        default:
+            break
+        }
         return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .value1, reuseIdentifier: "cell")
+        let switchView = UISwitch(frame: .zero) // Экземпляр переключателя
+        switchView.setOn(true, animated: true)
+        
+        if (indexPath.section == 0) {
+        switch indexPath.row {
+        case 0:
+            cell.textLabel?.text = array[0]
+            cell.imageView?.image = UIImage(systemName: "airplane")
+            cell.accessoryView = switchView
+        case 1:
+            cell.textLabel?.text = array[1]
+            cell.imageView?.image = UIImage(systemName: "wifi")
+            cell.detailTextLabel?.text = "Выкл."
+            cell.accessoryType = .disclosureIndicator
+        case 2:
+            cell.textLabel?.text = array[2]
+            cell.imageView?.image = UIImage(systemName: "wave.3.forward")
+            cell.detailTextLabel?.text = "Вкл."
+            cell.accessoryType = .disclosureIndicator
+        case 3:
+            cell.textLabel?.text = array[3]
+            cell.imageView?.image = UIImage(systemName: "antenna.radiowaves.left.and.right")
+            cell.detailTextLabel?.text = "Выкл."
+            cell.accessoryType = .disclosureIndicator
+        case 4:
+            cell.textLabel?.text = array[4]
+            cell.imageView?.image = UIImage(systemName: "personalhotspot")
+            cell.detailTextLabel?.text = "Выкл."
+            cell.accessoryType = .disclosureIndicator
+        case 5:
+            cell.alpha = 0
+            cell.textLabel?.text = array[5]
+            cell.imageView?.image = UIImage(systemName: "circle.grid.cross.fill")
+            cell.accessoryType = .disclosureIndicator
+        default:
+            break
+        }
+        }
         return cell
     }
     
