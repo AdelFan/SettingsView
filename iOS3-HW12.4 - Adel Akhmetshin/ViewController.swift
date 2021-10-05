@@ -111,6 +111,43 @@ extension ViewController: UITableViewDataSource {
             default:
                 break
             }
+        } else if (indexPath.section == 2) {
+            switch indexPath.row {
+            case 0:
+                cell.textLabel?.text = array[9]
+                cell.imageView?.image = UIImage(systemName: "gear")
+                cell.accessoryType = .disclosureIndicator
+            case 1:
+                cell.textLabel?.text = array[10]
+                cell.imageView?.image = UIImage(systemName: "bonjour")
+                cell.accessoryType = .disclosureIndicator
+            case 2:
+                cell.textLabel?.text = array[11]
+                cell.imageView?.image = UIImage(systemName: "textformat.size")
+                cell.accessoryType = .disclosureIndicator
+            case 3:
+                cell.textLabel?.text = array[12]
+                cell.imageView?.image = UIImage(systemName: "command")
+                cell.accessoryType = .disclosureIndicator
+            case 4:
+                cell.textLabel?.text = array[13]
+                cell.imageView?.image = UIImage(systemName: "figure.wave")
+                cell.accessoryType = .disclosureIndicator
+            case 5:
+                cell.textLabel?.text = array[14]
+                cell.imageView?.image = UIImage(systemName: "square.dashed")
+                cell.accessoryType = .disclosureIndicator
+            case 6:
+                cell.textLabel?.text = array[15]
+                cell.imageView?.image = UIImage(systemName: "waveform")
+                cell.accessoryType = .disclosureIndicator
+            case 7:
+                cell.textLabel?.text = array[16]
+                cell.imageView?.image = UIImage(systemName: "faceid")
+                cell.accessoryType = .disclosureIndicator
+            default:
+                break
+            }
         }
         return cell
     }
