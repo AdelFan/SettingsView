@@ -16,6 +16,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationController?.navigationItem.largeTitleDisplayMode = .always
+        let search = UISearchController(searchResultsController: nil)
+        search.searchResultsUpdater = self
+        self.navigationItem.searchController = search
     }
 }
 
@@ -30,7 +35,9 @@ extension ViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        let number = array[indexPath.row]
+        print("В ячейке номер", indexPath.row, " - ", number) // Значение самой ячейки
+        tableView.deselectRow(at: indexPath, animated: true) // Отмена выделения ячейки
     }
 }
 
@@ -153,13 +160,21 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            return " "
+        case 1:
+            return " "
+        default:
+            break
+        }
         return " "
     }
 }
 // MARK: - UISearchResultsUpdating
 extension ViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-        
+        print(searchController.searchBar.text ?? "nil")
     }
     
 }
