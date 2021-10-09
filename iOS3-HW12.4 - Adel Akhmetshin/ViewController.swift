@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     var array = ["Авиарежим", "Wi-Fi", "Bluetooth", "Сотовая связь", "Режим модема", "Уведомления", "Звуки, тактильные сигналы", "Не беспокоить", "Экранное время", "Основные", "Пункт управления", "Экран и яркость", "Экран Домой", "Универсальный доступ", "Обои", "Siri и поиск", "Face ID и код-пароль"]
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() // Test
         tableView.dataSource = self
         tableView.delegate = self
         self.navigationController?.navigationBar.prefersLargeTitles = true
